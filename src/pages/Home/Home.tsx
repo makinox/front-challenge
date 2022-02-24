@@ -46,13 +46,15 @@ function App() {
   return (
     <section className="homeSection">
       <article>
-        <label>Filter By</label>
-        <select>
-          <option>Name</option>
-          <option>Price</option>
-          <option>Market Cap</option>
-          <option>Circulating supply</option>
-        </select>
+        <div>
+          <label>Filter By</label>
+          <select>
+            <option>Name</option>
+            <option>Price</option>
+            <option>Market Cap</option>
+            <option>Circulating supply</option>
+          </select>
+        </div>
       </article>
       <article>
         <table>
