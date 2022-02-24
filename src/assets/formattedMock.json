@@ -1,0 +1,212 @@
+[
+  {
+    "key": "BTC",
+    "price": 38326.74,
+    "market_cap": 726959298157.32,
+    "circulatingSupply": 18967418,
+    "name": "BTC"
+  },
+  {
+    "key": "ETH",
+    "price": 2647.1,
+    "market_cap": 316902795916.7779,
+    "circulatingSupply": 119716971.749,
+    "name": "ETH"
+  },
+  {
+    "key": "XRP",
+    "price": 0.7041,
+    "market_cap": 70402775505.2031,
+    "circulatingSupply": 99989739391,
+    "name": "XRP"
+  },
+  {
+    "key": "DOGE",
+    "price": 0.124,
+    "market_cap": 16535708311.579449,
+    "circulatingSupply": 133352486383.70523,
+    "name": "DOGE"
+  },
+  {
+    "key": "BNB",
+    "price": 363.8,
+    "market_cap": 60071768169.342,
+    "circulatingSupply": 165123057.09,
+    "name": "BNB"
+  },
+  {
+    "key": "LTC",
+    "price": 105.2,
+    "market_cap": 7333657241.161186,
+    "circulatingSupply": 69711570.73347135,
+    "name": "LTC"
+  },
+  {
+    "key": "ADA",
+    "price": 0.8594,
+    "market_cap": 27804701559.001854,
+    "circulatingSupply": 32353620617.875088,
+    "name": "ADA"
+  },
+  {
+    "key": "BUSD",
+    "price": 1.0003994,
+    "market_cap": 18564224896.51413,
+    "circulatingSupply": 18556813305.28,
+    "name": "BUSD"
+  },
+  {
+    "key": "BCH",
+    "price": 308.02,
+    "market_cap": 5850010139.291821,
+    "circulatingSupply": 18992306.14665223,
+    "name": "BCH"
+  },
+  {
+    "key": "VET",
+    "price": 0.04497492999999999,
+    "market_cap": 3867171207.982692,
+    "circulatingSupply": 85985041177,
+    "name": "VET"
+  },
+  {
+    "key": "DOT",
+    "price": 16.35,
+    "market_cap": 19106008334.379772,
+    "circulatingSupply": 1168563200.8794966,
+    "name": "DOT"
+  },
+  {
+    "key": "EOS",
+    "price": 2.079,
+    "market_cap": 2178670354.914577,
+    "circulatingSupply": 1047941488.6554,
+    "name": "EOS"
+  },
+  {
+    "key": "SOL",
+    "price": 89.86,
+    "market_cap": 46387393849.87075,
+    "circulatingSupply": 516218493.7666454,
+    "name": "SOL"
+  },
+  {
+    "key": "SRM",
+    "price": 1.854,
+    "market_cap": 391194003.708,
+    "circulatingSupply": 211000002,
+    "name": "SRM"
+  },
+  {
+    "key": "USDT",
+    "price": 1.001,
+    "market_cap": 79554081475.7498,
+    "circulatingSupply": 79474606868.88094,
+    "name": "USDT"
+  },
+  {
+    "key": "BTT",
+    "price": 0.0000018018,
+    "market_cap": 1783761.1737717255,
+    "circulatingSupply": 989988441431.7491,
+    "name": "BTT"
+  },
+  {
+    "key": "TRX",
+    "price": 0.06097090999999999,
+    "market_cap": 6050871826.20022,
+    "circulatingSupply": 99241947122,
+    "name": "TRX"
+  },
+  {
+    "key": "FIL",
+    "price": 18.6186,
+    "market_cap": 3127964978.9388,
+    "circulatingSupply": 168002158,
+    "name": "FIL"
+  },
+  {
+    "key": "LINK",
+    "price": 13.44,
+    "market_cap": 13440000000,
+    "circulatingSupply": 1000000000,
+    "name": "LINK"
+  },
+  {
+    "key": "MATIC",
+    "price": 1.452,
+    "market_cap": 14520000000,
+    "circulatingSupply": 10000000000,
+    "name": "MATIC"
+  },
+  {
+    "key": "UNI",
+    "price": 8.881,
+    "market_cap": 8881000000,
+    "circulatingSupply": 1000000000,
+    "name": "UNI"
+  },
+  {
+    "key": "NEO",
+    "price": 20.61059,
+    "market_cap": 2061058999.9999998,
+    "circulatingSupply": 100000000,
+    "name": "NEO"
+  },
+  {
+    "key": "CHZ",
+    "price": 0.1653652,
+    "market_cap": 1469912888.7418976,
+    "circulatingSupply": 8888888888,
+    "name": "CHZ"
+  },
+  {
+    "key": "ETC",
+    "price": 26.67,
+    "market_cap": 3516282281.8363175,
+    "circulatingSupply": 131844105.05572993,
+    "name": "ETC"
+  },
+  {
+    "key": "THETA",
+    "price": 2.665662999999999,
+    "market_cap": 2665662999.999999,
+    "circulatingSupply": 1000000000,
+    "name": "THETA"
+  },
+  {
+    "key": "XLM",
+    "price": 0.1841,
+    "market_cap": 9205331777.920103,
+    "circulatingSupply": 50001802161.434555,
+    "name": "XLM"
+  },
+  {
+    "key": "BSV",
+    "price": 82.65256999999998,
+    "market_cap": 1569429347.93877,
+    "circulatingSupply": 18988270.39423905,
+    "name": "BSV"
+  },
+  {
+    "key": "LUNA",
+    "price": 62.25,
+    "market_cap": 49562645069.044815,
+    "circulatingSupply": 796187069.382246,
+    "name": "LUNA"
+  },
+  {
+    "key": "WIN",
+    "price": 0.0002629627,
+    "market_cap": 261394353.44348714,
+    "circulatingSupply": 994035859243.4863,
+    "name": "WIN"
+  },
+  {
+    "key": "SXP",
+    "price": 1.203,
+    "market_cap": 343298652.8531794,
+    "circulatingSupply": 285368788.73913497,
+    "name": "SXP"
+  }
+]
