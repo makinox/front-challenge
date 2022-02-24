@@ -3,7 +3,6 @@ import { useEffect, useMemo, useState } from 'react';
 import { defaultUrl } from '../../assets/constants';
 import { FormattedType } from '../../assets/types';
 import './Home.css';
-// import styles from './Home.module.css';
 
 function App() {
   const [cryptos, setCryptos] = useState<any>();
@@ -43,10 +42,54 @@ function App() {
     window.location.href = `/details?name=${data.name}&price=${data.price}`;
   }
 
+  const renderCrypto = useMemo(() => {
+    if (formattedData.length) {
+      return (
+        <article>
+          <table className="cardLike">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Market Cap</th>
+                <th>Circulating supply</th>
+                <th></th>
+              </tr>
+            </thead>
+
+            <tbody>
+              {formattedData.map((data) => {
+                return (
+                  <tr key={data.key}>
+                    <td>Name: {data.name}</td>
+                    <td>Price: {data.price}</td>
+                    <td>Market Cap: {data.market_cap}</td>
+                    <td>Circulating supply: {data.circulatingSupply}</td>
+                    <td>
+                      <div>
+                        <button onClick={() => handleDetails(data)}>Details</button>
+                      </div>
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </article>
+      );
+    }
+
+    return (
+      <article>
+        <h2 className="cardLike">Loading...</h2>
+      </article>
+    );
+  }, [formattedData]);
+
   return (
     <section className="homeSection">
       <article>
-        <div>
+        <div className="cardLike">
           <label>Filter By</label>
           <select>
             <option>Name</option>
@@ -56,37 +99,7 @@ function App() {
           </select>
         </div>
       </article>
-      <article>
-        <table>
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Price</th>
-              <th>Market Cap</th>
-              <th>Circulating supply</th>
-              <th></th>
-            </tr>
-          </thead>
-
-          <tbody>
-            {formattedData.map((data) => {
-              return (
-                <tr key={data.key}>
-                  <td>Name: {data.name}</td>
-                  <td>Price: {data.price}</td>
-                  <td>Market Cap: {data.market_cap}</td>
-                  <td>Circulating supply: {data.circulatingSupply}</td>
-                  <td>
-                    <div>
-                      <button onClick={() => handleDetails(data)}>Details</button>
-                    </div>
-                  </td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
-      </article>
+      {renderCrypto}
     </section>
   );
 }

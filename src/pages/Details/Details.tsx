@@ -1,5 +1,6 @@
 import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
+import './Details.css';
 
 export default function Details() {
   const params = useMemo(() => {
@@ -11,10 +12,10 @@ export default function Details() {
   }, []);
 
   return (
-    <section>
-      <div>
+    <section className="detailsSection">
+      <article>
         <h2>Details</h2>
-      </div>
+      </article>
       <div>
         <article>
           <span>Crypto: {params.name}</span>

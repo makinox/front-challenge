@@ -7,3 +7,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(245, 245, 246);
 }
+
+.cardLike {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  filter: drop-shadow(rgba(195, 203, 214, 0.16) 0px 0px 6px)
+    drop-shadow(rgba(195, 203, 214, 0.16) 0px 1px 4px);
+}

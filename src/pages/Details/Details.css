@@ -1,26 +1,17 @@
-.homeSection {
+.detailsSection {
   display: flex;
   flex-direction: column;
 }
 
-.homeSection > article:first-of-type {
+.detailsSection > article {
   display: flex;
   justify-content: center;
-  margin: 20px 0;
 }
-.homeSection > article:first-of-type div,
-.homeSection > article:last-of-type table {
+
+.detailsSection > article > h2 {
   background-color: #fff;
   padding: 10px;
   border-radius: 5px;
   filter: drop-shadow(rgba(195, 203, 214, 0.16) 0px 0px 6px)
     drop-shadow(rgba(195, 203, 214, 0.16) 0px 1px 4px);
-}
-
-.homeSection > article:last-of-type {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-  overflow: auto;
-  height: 80vh;
 }
